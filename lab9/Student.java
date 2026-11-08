@@ -5,22 +5,13 @@ public class Student implements Comparable<Student> {
     private String name;
     private double gpa;
 
-    // для задания 2
     public Student(int iDNumber, String name, double gpa) {
         this.iDNumber = iDNumber;
         this.name = name;
         this.gpa = gpa;
     }
 
-    // для задания 1
-    public Student(int iDNumber, String name) {
-        this.iDNumber = iDNumber;
-        this.name = name;
-        this.gpa = 0.0;
-    }
-
     public int getiDNumber() { return iDNumber; }
-    public String getName() { return name; }
     public double getGpa() { return gpa; }
 
     @Override
